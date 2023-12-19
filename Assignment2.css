@@ -1,0 +1,275 @@
+body {
+    background-color: #f7fdfc;
+    margin: 0;
+    padding: 0;
+    /* height: 840px; */
+    font-family: 'brown', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .header_nav {
+    padding: 3.5rem;
+    width: auto;
+    margin-top: 1rem;
+  }
+  
+  .image {
+    padding: 0;
+    width: 3.5rem;
+    background: #000;
+  }
+  
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.2rem;  
+    width: auto;
+    height: auto;
+    background: #fff;
+    /* gap: 1.5rem; */
+  }
+  
+  input {
+    width: 45vh;
+    height: 2rem;
+    border: #c7cec8 solid 1px;
+    border-radius: 0.2rem;
+  }
+  
+  input ::placeholder {
+    margin: 1rem;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 0.5rem;
+  }
+  
+  .name {
+    gap: 0.3rem;
+  }
+  
+  .dropdown {
+    width: 46vh;
+    height: 2.2rem;
+    border: #c7cec8 solid 1px;
+    border-radius: 0.2rem;
+  }
+  
+  label .name {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 45vh;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.2rem;
+  }
+  
+  .password_label {
+    justify-content: flex-start;
+  }
+  
+  .password_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .btn {
+    background: #2ec4b6;
+    color: #fff;
+    width: 46vh;
+    height: 2.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    display: flex;
+    width: auto;
+    margin: 0.9rem;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .welcomePage2 {
+    display: none;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .body {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: 100%;
+      margin: 0;
+    }
+  
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* text-align: center; */
+      padding: 2.2rem;
+      height: auto;
+      width: 50%;
+      margin: 0;
+    }
+  
+    .header_nav {
+      padding: 4rem;
+      width: auto;
+      margin-top: 3rem;
+      gap: 0;
+    }
+  
+    .form_div {
+      align-items: center;
+      justify-items: center;
+      padding: 1rem;
+      width: 50%;
+      height: auto;
+    }
+  
+    .form_container {
+      display: flex;
+      flex-direction: column;
+      padding: 0 3.5rem;
+      width: auto;
+      height: auto;
+      gap: 0.1rem;
+    }
+  
+  
+    input {
+      width: auto;
+      height: 2rem;
+      border: #2ec4b6 solid 1px;
+      border-radius: 0.2rem;
+    }
+  
+    input ::placeholder {
+      text-align: justify;
+    }
+  
+    .div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.1rem;
+      margin: 0;
+    }
+  
+    label {
+      width: 13.5rem;
+    }
+  
+    label .name {
+      width: 5rem;
+  
+    }
+  
+    .dropdown {
+      width: 100%;
+    }
+  
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      /* padding: 0.5rem; */
+      margin: 0;
+    }
+  
+    .form label {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        margin: 0;
+        padding: 0.5rem;
+    }
+  
+    .form input, .form select {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+  
+    .activity {
+      padding: 0.5rem;
+    }
+  
+    .form button {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        background-color: #2ec4b6;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+  
+    .password_container {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    label .password_label {
+        margin-bottom: 5px;
+    }
+  
+  
+      .btn {
+        padding: 0.5rem;
+      }
+  
+    .welcomePage {
+        display: none;
+      }
+  
+      .welcomePage2 {
+        display: flex;
+        width: 85%;
+        text-align: start;
+      }
+  
+      .image {
+        width: 5rem;
+      }
+  
+      h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0;
+      }
+    
+  }

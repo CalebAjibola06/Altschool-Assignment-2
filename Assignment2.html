@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="Assignment2.css">
+      <link  type="text/javascript" src="Scrit.js">
+      <title>Document</title>
+    </head>
+    <body>
+     
+      <section class="body">
+        <section class="header">
+          <div class="header_nav">
+            <img src="logo 2.jpeg" alt="" class="image">
+            <h2>
+              For Individuals
+            </h2>
+            <p class="welcomePage">
+              Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere
+            </p>
+            <p class="welcomePage2">
+              Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.
+            </p>
+          </div>
+        </section>
+  
+        <section class="form_div">
+          <form class="form_container">
+            <div class="div">
+              <label for="text" class="name">
+                First Name
+                <input type="text" id="name" name="user_name" aria-label="name"   required maxlength="30"/>
+              </label>
+              <label for="text" class="name">
+                Last Name
+                <input type="text" id="name" name="user_name" aria-label="name"   required maxlength="30"/>
+              </label>
+              <label class="name">
+                Gender
+                <select name="" id="name"  class="dropdown">
+                  <option value="0">select here</option>
+                  <option value="a">male</option>
+                  <option value="b">Female</option>
+                </select>
+              </label>
+              <label for="text" class="name">
+                Date of Birth
+                <input type="date" id="name" name="user_name" aria-label="name"  placeholder="select here " />
+              </label>
+              <label for="text" class="name">
+                Weight (KG)
+                <input type="text" id="name" name="user_name" aria-label="name" placeholder="Enter Weight"   required maxlength="30"/>
+              </label>
+                <label for="first_name" class="name">
+                  Height (CM)
+                  <input type="text" name="height" id="" placeholder="enter height here">
+                </label>
+               
+            </div>
+            
+          <div class="form">
+            <label for="first_name" class="name activity"> Activity Level
+              <select name="" id="gender" class="dropdown" aria-label="select here" placeholder="plsdd">
+                <option value={disable}>select here</option>
+                <option value="a">Music</option>
+                <option value="a">Football</option>
+              </select>
+            </label>
+            <div class="password_container">
+              <label class="password_label" for="first_name">password
+                <input type="password" name="" id="password">
+              </label>
+            
+            </div>
+            <button typ="submit" class="btn">Register</button>
+          </div>
+           
+            <footer>
+              <p class="footer"> By clicking Rigister, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+              </p>
+            </footer>
+          </form>
+        </section>
+      </section>
+    </body>
+  </html>
